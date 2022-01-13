@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&family=Cormorant+Garamond&family=Ubuntu&display=swap');
+
+
+body {
+    background-image: url(img/matka.jpg);
+    height: 97vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+* {
+    font-family: 'Cormorant Garamond',
+        serif;
+}
+
+.glass {
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.25);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    border-radius: 1rem;
+    min-height: 80vh;
+    width: 60%;
+    z-index: 2;
+    backdrop-filter: blur(1rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+h1,
+p {
+    color: white;
+
+}
+
+p a {
+    text-decoration: underline;
+    color: white;
+}
+
+form input {
+    font-size: large;
+    display: block;
+    text-align: center;
+    border: none;
+    margin: 2rem;
+    padding: .5rem;
+}
+
+.sub {
+    padding: .5rem 5.5rem;
+    background-color: greenyellow;
+}
+
+.sub:hover {
+    background-color: chartreuse;
+}
+
+.error {
+    color: red;
+}

@@ -1,0 +1,16 @@
+.about-us {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-us ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 3rem;
+    font-size: x-large;
+}
+
+.about-us {
+    padding: 1rem;
+    margin: 1rem;
+}

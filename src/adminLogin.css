@@ -1,0 +1,51 @@
+body {
+    background-image: url(img/ceramic.jpg);
+    height: 97vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.glass {
+    background-color: rgba(255, 255, 255, 0.637);
+    background: linear-gradient(297deg, rgba(255, 255, 255, 0.459) 14%, rgba(255, 255, 255, .3) 100%);
+    border-radius: 1rem;
+    min-height: 80vh;
+    width: 60%;
+    z-index: 2;
+    backdrop-filter: blur(1rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form input {
+    font-size: large;
+    display: block;
+    text-align: center;
+    border: none;
+    margin: 2rem;
+    padding: .5rem;
+}
+
+.sub {
+    padding: .5rem 5.5rem;
+    background-color: greenyellow;
+}
+
+.sub:hover {
+    background-color: chartreuse;
+}
+
+.error {
+    color: red;
+}
